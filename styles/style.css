@@ -8,9 +8,12 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-div {
+/*div {
   border: 1px solid red;
 }
+ h2{
+  border: 1px solid red;
+ }*/
 
 .header {
   position: relative;
@@ -23,8 +26,7 @@ div {
   padding-left: 64px;
   z-index: -1;
   background-color:  #f2f2f2 ;
-     /* выше установили ограничения для секции */
-}
+    }
 
 .logo{
   width: 183px;
@@ -61,10 +63,9 @@ div {
  }
 
 .header__link{
-
+  color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -82,9 +83,53 @@ div {
   position: absolute;
   align-self: flex-end;
   bottom: 0px;
- }
+}
 
-/* и элемента с модификатором вида ключ-значение */
+
+.description{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.description__two-colums{
+width: 80%;
+display: flex;
+justify-content: space-between;
+min-height: 332px;
+}
+
+.description__brief{
+width: 175px;
+line-height: 1.2;
+font-size: 18px;
+color: #2f80ed;
+margin: 0;
+}
+
+.description__main-text{
+width: 80%;
+min-width: 784px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.description__paragraph{
+line-height: 34px;
+font-size: 24px;
+margin: 0 0 30px 0;
+}
+
+.description__paragraph:last-child{
+  margin-bottom: 0;
+}
+
+.description__span-accent{
+font-weight: bold;
+}
+
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
