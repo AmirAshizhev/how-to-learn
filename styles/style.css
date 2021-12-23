@@ -43,8 +43,8 @@ a{
   justify-content: center;
   padding-left: 64px;
   z-index: 0;
-  background-color:  #f2f2f2 ;
-    }
+  background-color:  #f2f2f2;
+}
 
 .logo{
   width: 183px;
@@ -258,7 +258,7 @@ margin-top: 20px;
   flex-direction: column;
   background-color: #1f1f1f;
   padding: 90px 0;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
   z-index: -1;
 }
