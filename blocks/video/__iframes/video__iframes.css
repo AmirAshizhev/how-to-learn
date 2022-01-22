@@ -3,4 +3,9 @@
   display: flex;
   width: 1050px;
   z-index: 1;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
 }
+
+
